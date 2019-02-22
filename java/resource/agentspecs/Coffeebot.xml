@@ -16,7 +16,7 @@
     <GestureBinding basedir="" resources="bindings/gesture/" filename="gesturebinding_uma.xml"/>
     <!--  
     <StartPose>
-      <RestPose type="SkeletonPose" file="behaviors/uma/restposes/ppC.xml"/>
+      <RestPose type="SkeletonPose" file="behaviors/uma/restposes/ppR.xml"/>
     </StartPose>
     <Hns resources="Humanoids/armandia/hns" filename="hns_armandia.xml"/>
     <HnsHandShape dir="Humanoids/shared/handshapes"/>
@@ -30,21 +30,21 @@
   </Loader>
   
   
-  <!--
-  <Loader id="ttsbinding" loader="asap.marytts5binding.loader.MaryTTSBindingLoader">
+<!--   <Loader id="ttsbinding" loader="asap.marytts5binding.loader.MaryTTSBindingLoader">
     <PhonemeToVisemeMapping resources="bindings/phoneme2viseme/" filename="sampaen2disney.xml"/>
   </Loader>
   <Loader id="speechengine" loader="asap.speechengine.loader.SpeechEngineLoader" requiredloaders="facelipsync,ttsbinding">
     <Voice factory="WAV_TTS" voicename="dfki-prudence"/>
-  </Loader>
-  -->
+  </Loader> -->
   
     
+  
 <Loader id="ttsbinding" loader="asap.sapittsbinding.loader.SapiTTSBindingLoader">
 </Loader>
 <Loader id="speechengine" loader="asap.speechengine.loader.SpeechEngineLoader" requiredloaders="facelipsync,ttsbinding">
   <Voice factory="WAV_TTS" voicename="Microsoft Mark" />
 </Loader>
+  
 
 
 <!--

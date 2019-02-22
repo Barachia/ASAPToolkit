@@ -12,8 +12,6 @@
   </root>
   <logger name="eu.couch.hmi" level="WARN"/>
   <logger name="eu.couch.hmi.flipper.IntentToBMLTranslator" level="DEBUG"/>
-  <logger name="eu.couch.hmi.flipper.IntentToFMLTranslator" level="WARN"/>
-  <logger name="eu.couch.hmi.flipper.GretaFeedbackWatcher" level="WARN"/>
   <logger name="eu.couch.hmi.flipper.BmlFeedbackWatcher" level="WARN"/>
   <logger name="eu.couch.hmi.flipper.AsapPredictionEavesdropper" level="WARN"/>
   <logger name="hmi.unityembodiments" level="INFO"/>
